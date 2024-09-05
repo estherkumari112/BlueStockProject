@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    
+    <main class="signin-container">
+        <form action="#" method="POST" class="signin-form">
+            <img src="logo.png" alt="Logo" class="form-logo"> <!-- Add your logo image -->
+            <div class="email"> 
+                <label for="email">Email Address: </label>
+                <input type="email" id="email"Placeholder="Email Address" name="email"style="width:480px" alt="Email Address" required >
+            </div>
+            
+            <div class="ps">
+                <label for="password">Password:</label> <label for="" style="color: blue;">Forgot Password?</label>
+            </div>
+            <input type="password"style="width:480px" id="password"Placeholder="Password" name="password" required>
+
+            <div class="checkbox-container">
+                <input  type="checkbox" id="keep-signed-in" style="margin-bottom:5px">
+                <label style="margin-bottom:none">Keep me signed in</label> 
+            </div>
+
+            <!-- CAPTCHA Placeholder -->
+            <div class="captcha">
+                <!-- Insert CAPTCHA service here (e.g., reCAPTCHA) -->
+                <p>[CAPTCHA]</p>
+            </div>
+
+            <button type="submit" class="btn">Login</button>
+
+            <p>or sign in with</p>
+
+            <button type="button" class="google-btn"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" fill="currentColor" class="bi bi-google"  viewBox="0 0 16 16">
+                <path d="M15.545 6.558a9.4 9.4 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.7 7.7 0 0 1 5.352 2.082l-2.284 2.284A4.35 4.35 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.8 4.8 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.7 3.7 0 0 0 1.599-2.431H8v-3.08z"/>
+              </svg> Continue with Google</button>
+
+            <div class="create-account">
+                <p>Don't have an account?</p>
+                <a href="login.html" onclick="fun3()" >Create an Account</a>
+            </div>
+        </form>
+    </main>
+    <script>
+        function fun3(){
+            Window.location.access("login.html")
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bdde350d13.js" crossorigin="anonymous"></script>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+      <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+    </svg>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-left">
+                <img src="logo.png" alt="Logo" class="logo"> <!-- Add your logo image -->
+                <a href="#">PRODUCTS</a>
+                <a href="#">PRICING</a>
+                <a href="#">COMMUNITY</a>
+
+                <!-- Media Dropdown -->
+                <div class="nav-left-r">
+                <div class="dropdown">
+                    <button class="dropbtn">MEDIA<div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-caret-down-fill"  viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg></div></button>
+                    <div class="dropdown-content">
+                        <a href="#">LINK1</a>
+                        <a href="#">LINK2</a>
+                        <a href="#">LINK3</a>
+                    </div>
+                </div>
+                
+
+                <!-- Support Dropdown -->
+                <div class="dropdown">
+                    <button class="dropbtn">SUPPORT<div class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                        <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/></svg></div></button>
+                    <div class="dropdown-content">
+                        <a href="#">Contact Us</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Help Center</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="nav-right">
+                <div class="signin" onclick="func()"><a href="signin.html" class="signin-btn">Sign In</a></div>
+                <div class="signup" onclick="fun2()"><a href="#" class="signup-btn">Sign Up</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- First Row of Boxes -->
+    <div class="container">
+        <div class="row">
+            <div class="box"><div class="img-sty-div"><img src="sbi.webp" class="img-sty" alt="sbi"></div>
+                <!-- <h5>State Bank of Inida</h5> -->
+                <div class='box-content'>
+                    <div class="h5-c">State Bank of Inida</div>
+                    <div class="cc"><p>Price Band: 39-41</p>
+                    <p>Open Date: 2023-01-23</p>
+                    <p>Close Date:2024-08-23</p></div>
+                    <div class='btn-c'><button class="btn-r">RHP</button>
+                         <button class="btn-d">DRHP</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box"><div class="img-sty-div"><img src="axis.webp" class="img-sty" alt="sbi"></div>
+                <!-- <h5>State Bank of Inida</h5> -->
+                <div class='box-content'>
+                    <div class="h5-c">Axis Bank</div>
+                    <div class="cc"><p>Price Band: 45-55</p>
+                    <p>Open Date: 2024-04-03</p>
+                    <p>Close Date:2024-05-02</p></div>
+                    <div class='btn-c'><button class="btn-r">RHP</button>
+                         <button class="btn-d">DRHP</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box"><div class="img-sty-div"><img src="hdfc.webp" class="img-sty" alt="sbi"></div>
+                <div class='box-content'>
+                    <div class="h5-c">HDFC</div>
+                    <div class="cc"><p>Price Band: 40-44</p>
+                    <p>Open Date: 2024-07-23</p>
+                    <p>Close Date:2024-08-23</p></div>
+                    <div class='btn-c'><button class="btn-r">RHP</button>
+                         <button class="btn-d">DRHP</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Second Row of Boxes -->
+        <div class="row">
+            <div class="box"><div class="img-sty-div"><img src="icici.webp" class="img-sty" alt="sbi"></div>
+                <!-- <h5>State Bank of Inida</h5> -->
+                <div class='box-content'>
+                    <div class="h5-c">State Bank of Inida</div>
+                    <div class="cc"><p>Price Band: 39-41</p>
+                    <p>Open Date: 2023-01-23</p>
+                    <p>Close Date:2024-08-23</p></div>
+                    <div class='btn-c'><button class="btn-r">RHP</button>
+                         <button class="btn-d">DRHP</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box"><div class="img-sty-div"><img src="idfc.webp" class="img-sty" alt="sbi"></div>
+                <!-- <h5>State Bank of Inida</h5> -->
+                <div class='box-content'>
+                    <div class="h5-c">State Bank of Inida</div>
+                    <div class="cc"><p>Price Band: 39-41</p>
+                    <p>Open Date: 2023-01-23</p>
+                    <p>Close Date:2024-08-23</p></div>
+                    <div class='btn-c'><button class="btn-r">RHP</button>
+                         <button class="btn-d">DRHP</button>
+                    </div>
+                </div>
+            </div>
+            <div class="box"><div class="img-sty-div"><img src="induslnd.webp" class="img-sty" alt="sbi"></div>
+                <!-- <h5>State Bank of Inida</h5> -->
+                <div class='box-content'>
+                    <div class="h5-c">State Bank of Inida</div>
+                    <div class="cc"><p>Price Band: 39-41</p>
+                    <p>Open Date: 2023-01-23</p>
+                    <p>Close Date:2024-08-23</p></div>
+                    <div class='btn-c'><button class="btn-r">RHP</button>
+                         <button class="btn-d">DRHP</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            <div class="box1"><div class="img-sty-div"><img src="bob.webp" class="img-sty" alt="sbi"></div>
+                <!-- <h5>State Bank of Inida</h5> -->
+                <div class='box-content'>
+                    <div class="h5-c">State Bank of Inida</div>
+                    <div class="cc"><p>Price Band: 39-41</p>
+                    <p>Open Date: 2023-01-23</p>
+                    <p>Close Date:2024-08-23</p></div>
+                    <div class='btn-c'><button class="btn-r">RHP</button>
+                         <button class="btn-d">DRHP</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+        <!-- FAQ Section -->
+    <div class="wrapper">
+      <div class="ff"><h3>Frequently Asked Questions</h3></div>
+
+      <div class="faq">
+        <button class="accordion">
+          How to Subcribe to an IPO<div><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+          </svg></div>
+        </button>
+        <div class="pannel">
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae animi aliquid eaque?
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          Should I buy an IPO on the first day?<div><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+          </svg></div>
+          
+        </button>
+        <div class="pannel">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+            ullam, iure eligendi harum eaque hic corporis debitis porro
+            consectetur voluptate rem officiis architecto.
+          </p>
+        </div>
+      </div>
+
+      <div class="faq">
+        <button class="accordion">
+          How do you know if an IPO is good?
+          <div><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+          </svg></div>
+        </button>
+        <div class="pannel">
+          <p>
+            Research the company's financials, market position, and potential for growth. Consulting with financial advisors can also help.
+          </p>
+        </div>
+      </div> 
+
+      <div class="faq">
+        <button class="accordion">
+          How to check IPO start date?<div><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-plus" viewBox="0 0 16 16">
+            <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+          </svg></div>
+          
+        </button>
+        <div class="pannel">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis
+            saepe molestiae distinctio asperiores cupiditate consequuntur dolor
+            ullam, iure eligendi harum eaque hic corporis debitis porro
+            consectetur voluptate rem officiis architecto.
+          </p>
+        </div>
+    </div>
+    </div>
+      <div class="end">
+        <div class="endd">
+          <div class="end-h">RESOURCES</div>
+          <div class="end-c">
+          <a href="#">Trading View</a>
+          <a href="">NSE Holifdays</a>
+          <a href="">e-Voting CDSL</a>
+          <a href="">e-Voting NSDL</a>
+          <a href="">Market Timings</a></div>
+        </div>
+        <div class="endd">
+          <div class="end-h">COMPANY</div>
+           <div class="end-c"><a href="">Careers</a>
+          <a href="">Contact Us</a>
+          <a href="">About Us</a>
+          <a href="">Community</a>
+          <a href="">Blogs</a></div>
+        </div>
+        <div>
+          <div class="end-h">OFFERINGS</div>
+          <div class="end-c"><a href="">Compare Broker</a>
+          <a href="">Fin Calculators</a>
+          <a href="">IPO</a>
+          <a href="">All Brokers</a>
+          <a href="">Products</a></div>
+        </div>
+        <div>
+          <div class="end-h">LINKS</div>
+          <div class="end-c"><a href="">Shark Investor</a>
+          <a href="">Mutual Funds</a>
+          <a href="">Sitemap</a>
+          <a href="">Indian Indices</a>
+          <a href="">Bug Bounty Program</a></div>
+        </div>
+        <div>
+          <div class="end-h">POLICY</div>
+          <div class="end-c">
+          <a href="">Terms & Conditions</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Refund Policy</a>
+          <a href="">Disclaimer</a>
+          <a href="">Trust & Security</a></div>
+          
+        </div>
+
+      </div>
+
+    <script>
+      function func()
+      {
+        window.location.assign("signin.html")
+      }
+      function fun2(){
+        window.location.assign("login.html")
+      }
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var pannel = this.nextElementSibling;
+
+          if (pannel.style.display === "block") {
+            pannel.style.display = "none";
+          } else {
+            pannel.style.display = "block";
+          }
+        });
+      }
+    </script>
+
+    <div class="footer1">
+        <div class="col1">
+          <div class="socialicons"><i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-telegram"></i>
+          </div>
+          <div><img src="logo.png" alt="Logo" class="logo1"></div>
+            <p class="col1-p">BlueStock Fintech Pune,
+            Maharashtra
+            MSME Registration No:UDYAM-
+            MH-01-0138001</p>
+            
+        </div>
+        <div class="col2">
+            <p>Investment in securities markets are subject to market risks, read all the related documents carefully before investing as prescribe by SEBI, issued in the interest of the investors.</p>
+            <p>The users can write to 
+              hello@bluestock.in for any app, website-related queries. Also, you can send IT/tech- related feedback to</p>
+              <!-- <a style="color: blue">cto@bluestock.in<link> -->
+              <a style="color: blue" href="https:\\cto@bluestock.in" target="_blank">cto@bluestock.in</a>
+              <p>
+                Disclaimer: We are not a SEBI registered research analyst company. We do noy provide any kind of stock recommendations, buy/sell stock tips, or investment and trading advice. All the stock scripts shown in the Bluestock app, website, all social media handles are for educational purpose only. Before making any investment in the financial market, it is advisable to consuit with your financial advisor. Remember the stock market are subject to market risks.
+              </p>
+        </div>
+      </div>
+    </main>
+</body>
+</html>
